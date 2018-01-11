@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Regression TestSuite">
+
+    <test name="GroupsDemo">
+        <parameter name="URL" value="http://www.letskodeit.com/"/>
+        <classes>
+            <class name = "testclasses.PomRunTests"/>
+
+        </classes>
+
+    </test>
+</suite>
