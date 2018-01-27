@@ -25,7 +25,7 @@ public class ExtentReport {
     @BeforeClass
     public void beforeClass() {
         String baseUrl = "http://www.letskodeit.com/";
-        report = new ExtentReports("C://Users//CSR//Desktop//logintest.html");  //<====file location
+        report = new ExtentReports("C://Users//Al//Desktop//logintest.html");  //<====file location
         test = report.startTest("Verify Welcome Text");
         driver = new ChromeDriver();
         test.log(LogStatus.INFO, "Browser Started...");
